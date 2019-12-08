@@ -9,7 +9,7 @@
   This is a reader/writer problem based on 
 
 
-  Coordinator, is synchronize the processes.
+  Coordinator's job , is to  synchronize the processes.
   Coordinator, (in this case the father process) coordinates a bunch of processes( child processes). The number of child processes is
   an argument given by user. Coordinator create the processes  using  fork(). 
   So, assume that we have N peers( that means n child processes) and the ratio of readers/writers = ratio( ratio is also an argument).
