@@ -3,7 +3,7 @@
 ## Utility of program
  
   Processes  write and read to/from  shared memory concurrently. So, we need to synchronize  the processes.
-  This is a reader/writer problem based on Inter Process Communication ( IPC). At the end of the execution the program prints how many times an entry has been written/red,how many times a peer has writen/red, and the average time that peer waited to entry  in the critical section.
+  This is a reader/writer problem based on Inter Process Communication ( IPC). At the end of the execution the program prints how many times an entry has been written/red,how many times a peer has written/red, and the average time that peer waited to entry in shared memory  
 
 
 ## Coordinate processes
