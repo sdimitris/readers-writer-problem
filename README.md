@@ -15,7 +15,7 @@
 
 ##  Entries
 
-  Entry is a struct that contains 2 counters. Writed counter stands for  times that entry has been writen and readed stands for 
+  Entry is a struct that contains 2 counters and 2 semaphores. Writed counter stands for  times that entry has been writen and readed     stands for 
   times that entry has been red.
   Each child process can read or write in an Entry,one time at each iteration.
   The number of entries is  an argument also given by user.
