@@ -25,12 +25,11 @@
 ##  Shared memory
   Shared memory is  a set of Entries that allows peers to communicate. 
   
-##  COMPILING AND EXECUTE 
-  
-   This is the instruction for copmilation 
-    **make coordinator** 
+##  COMPILING AND EXECUTE   
+   This is the instruction for copmilation
+    -**make coordinator** 
    This is the instruction for execution 
-    **./build/coordinator  #peers #entries #ratio #iterations**
+    -**./build/coordinator  #peers #entries #ratio #iterations**
    
 
 
