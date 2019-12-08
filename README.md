@@ -27,8 +27,8 @@
   
 ##  COMPILING AND EXECUTE   
    This is the instruction for copmilation  
-   **make coordinator** 
-   This is the instruction for execution  
+   **make coordinator**   
+   This is the instruction for execution    
    **./build/coordinator  #peers #entries #ratio #iterations**
    
 
