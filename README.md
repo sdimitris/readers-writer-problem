@@ -1,4 +1,6 @@
-# Utility of program
+#  Coordinator
+
+## Utility of program
  
   Processes are write and read to/from  shared memory concurrently. So, we need to synchronize  the processes.
   This is a reader/writer problem based on Inter Process Communication ( IPC).
@@ -11,7 +13,7 @@
   Each peer is enabled "iteration" times, and the operation that  process makes each time is read or write(random operation).
   So,if iteration is 6 and ratio = 1,  3 reads and 3 writes are occured.
 
-#  Entries
+##  Entries
 
   Entry is a struct that contains 2 counters. Writed counter stands for  times that entry has been writen and readed stands for 
   times that entry has been red.
@@ -20,8 +22,16 @@
   Each entry is guarded by two semaphores(POSIX IMPLEMENTATION).
 
 
-#  Shared memory
+##  Shared memory
   Shared memory is  a set of Entries that allows peers to communicate. 
+  
+##  COMPILING AND EXECUTE 
+    
+    This is the instruction for copmilation 
+    ** make coordinator ** 
+    This is the instruction for execution 
+    ** ./build/coordinator  #peers #entries #ratio #iterations **
+   
 
 
 
