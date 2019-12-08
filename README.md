@@ -1,12 +1,7 @@
-#  The operation of  the program
+# Utility of program
  
   Processes are write and read to/from  shared memory concurrently. So, we need to synchronize  the processes.
-  This is a reader/writer problem based on Inter Process Communication ( IPC)
-
-  The operation of  the program
- 
-  Processes are write and read to/from  shared memory concurrently. So, we need to synchronize  the processes.
-  This is a reader/writer problem based on 
+  This is a reader/writer problem based on Inter Process Communication ( IPC).
 
 
   Coordinator's job , is to  synchronize the processes.
